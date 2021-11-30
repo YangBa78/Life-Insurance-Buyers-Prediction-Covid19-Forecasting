@@ -37,6 +37,3 @@ summary(lm(pred~actual))
 #export data
 X = forecast[c('ds','yhat_lower','yhat_upper','yhat')]
 write.csv(X,"C:\\Users\\alex7\\Desktop\\DeathPred.csv", row.names = FALSE)
-
-
-x = c(1, 2, 3, 4)
